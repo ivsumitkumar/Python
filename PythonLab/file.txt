@@ -1,0 +1,2 @@
+Hi, friends this program is to find most frequent word in a file.
+This program works perfectly

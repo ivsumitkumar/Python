@@ -1,0 +1,12 @@
+1. https://www.w3schools.com/python/python_regex.asp
+
+2. https://www.guru99.com/python-regular-expressions-complete-tutorial.html
+
+3. https://www.datacamp.com/community/tutorials/python-regular-expression-tutorial
+
+4. https://www.programiz.com/python-programming/regex
+
+5. https://www.tutorialspoint.com/python/python_reg_expressions.htm
+
+6. https://regex101.com/
+
