@@ -21,7 +21,7 @@ class Hangman:
 
     def fill_the_word_status(self):
 
-        nos = random.randrange(1, 3)
+        nos = random.randrange(1, 4)
         for i in range(nos):
             position = random.randrange(0, len(self.chosen_word))
             self.word_status[position] = self.chosen_word[position]
@@ -38,13 +38,11 @@ class Hangman:
             occurences.append(m.start())
         if (len(occurences) == 0):
             self.attempts_remaining -= 1
-            print(
-                "Oops! Your guess was wrong. Attempts remaining: {}".format(
-                    self.attempts_remaining))
+            print("\nOops! Your guess was wrong. Attempts remaining: {}".format(self.attempts_remaining))
         else:
             for position in occurences:
                 self.word_status[position] = self.chosen_word[position]
-            print("Correct Word!")
+            print("\nCorrect Word!")
 
     def get_word_status(self):
 

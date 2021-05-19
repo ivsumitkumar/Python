@@ -1,6 +1,6 @@
 import Hangman_creator
 
-hangman = Hangman_creator.Hangman("E:\\wordlist.txt")
+hangman = Hangman_creator.Hangman("E:\\Sumit\\Programs\\Python\\Udemy_Python\\Hangman\\wordlist.txt")
 hangman.choose_the_word()
 hangman.fill_the_word_status()
 while True:
@@ -12,5 +12,5 @@ while True:
             hangman.chosen_word))
         break
     elif (hangman.chosen_word == ''.join(hangman.word_status)):
-        print("{}\n🎉🎉 Hurray! You Guessed the word.".format(hangman.chosen_word))
+        print("'{}'\n🎉🎉 Hurray! You Guessed the word.".format(hangman.chosen_word))
         break
