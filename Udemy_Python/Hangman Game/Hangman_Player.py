@@ -1,6 +1,6 @@
-import Hangman_creator
+from Hangman_creator import Hangman
 
-hangman = Hangman_creator.Hangman(
+hangman = Hangman(
     "E:\\Sumit\\Programs\\Python\\Udemy_Python\\Hangman Game\\wordlist.txt")
 hangman.choose_the_word()
 hangman.fill_the_word_status()
