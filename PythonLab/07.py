@@ -10,9 +10,10 @@
 #         max = list[i]
 # print("maximum is", max)
 '''**************************************************'''
-# l=input("Enter Numbers:").split(" ")
+# l=list(map(int,input("Enter Numbers:").split(" ")))
 # print(max(l))
 '''**************************************************'''
-import sys
-print(max([int(i) for i in sys.argv[1::]]))
- 
+# import sys
+# print(max([int(i) for i in sys.argv[1::]]))
+'''**************************************************'''
+print(max(list(map(int,input("Enter Numbers:").rstrip().split()))))

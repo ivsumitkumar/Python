@@ -162,16 +162,27 @@
 
 # print((1,2,3) + (4,5,6))
 # print(("hi",)*3)
-n = int(input('enter the number of disks:'))
+# n = int(input('enter the number of disks:'))
 
 
-def TowerOfHanoi(n, from_rod, to_rod, aux_rod):
-    if n == 1:
-        print("Move disk1th 1 from rod", from_rod, "To rod", to_rod)
-        return
-    TowerOfHanoi(n - 1, from_rod, aux_rod, to_rod)
-    print("Movedisk2th", n, "from rod", from_rod, "to rod", to_rod)
-    TowerOfHanoi(n - 1, aux_rod, to_rod, from_rod)
+# def TowerOfHanoi(n, from_rod, to_rod, aux_rod):
+#     if n == 1:
+#         print("Move disk1th 1 from rod", from_rod, "To rod", to_rod)
+#         return
+#     TowerOfHanoi(n - 1, from_rod, aux_rod, to_rod)
+#     print("Movedisk2th", n, "from rod", from_rod, "to rod", to_rod)
+#     TowerOfHanoi(n - 1, aux_rod, to_rod, from_rod)
 
 
-TowerOfHanoi(n, 'A', 'C', 'B')
+# TowerOfHanoi(n, 'A', 'C', 'B')
+
+# i=5
+# while True:
+# 	if i%0011 == 0:
+# 		break
+# 	print(i)
+
+# 	i+=1
+
+l=[1, 0, 2, 0, 'hello', '',[]]
+list(filter(bool, l))
