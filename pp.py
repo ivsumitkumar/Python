@@ -13,22 +13,22 @@
 '''******************************************************'''
 '''To Print The prime no. in a given range'''
 
-# l=int(input("Enter the Lower no.:"))
-# u=int(input("Enter the upper no.:"))
-# print("Prime Numbers Between",l,"and",u,"is:")
-# if l==0:
-# 	l=l+2
-# elif l==1:
-# 	l=l+1
+# lwr = int(input("Enter the Lower no.:"))
+# upr = int(input("Enter the upper no.:"))
+# print("Prime Numbers Between", lwr, "and", upr, "is:")
+# if lwr == 0:
+#     lwr = lwr + 2
+# elif lwr == 1:
+#     lwr = lwr + 1
 
-# for i in range(l,u+1):
-# 	if i>1:
-# 		for x in range(2,i):
-# 			if i%x==0:
-# 				break
+# for i in range(lwr, upr + 1):
+#     if i > 1:
+#         for x in range(2, i):
+#             if i % x == 0:
+#                 break
 
-# 		else:
-# 			print(i)
+#         else:
+#             print(i)
 
 '''*****************************************************'''
 '''Fibonacci Series'''
@@ -158,12 +158,11 @@
 # print("The L.C.M. is", compute_lcm(num1, num2))
 
 '''*****************************************************'''
-# Python program to
+# Python program of Tower of Hanoi
 
 # print((1,2,3) + (4,5,6))
 # print(("hi",)*3)
 # n = int(input('enter the number of disks:'))
-
 
 # def TowerOfHanoi(n, from_rod, to_rod, aux_rod):
 #     if n == 1:
@@ -172,7 +171,6 @@
 #     TowerOfHanoi(n - 1, from_rod, aux_rod, to_rod)
 #     print("Movedisk2th", n, "from rod", from_rod, "to rod", to_rod)
 #     TowerOfHanoi(n - 1, aux_rod, to_rod, from_rod)
-
 
 # TowerOfHanoi(n, 'A', 'C', 'B')
 
@@ -183,6 +181,3 @@
 # 	print(i)
 
 # 	i+=1
-
-l=[1, 0, 2, 0, 'hello', '',[]]
-list(filter(bool, l))

@@ -1,10 +1,14 @@
-with open("myfile.txt", "w") as f:
-    f.write("Hello World Python Programming")
+# if 10 % 2 == 0 and 34 / 10 == 0:
+#     print("Accepted")
+# elif a // 10 == 0 and a != 0:
+#     print("Nice")
+# else:
+#     print("OK")
 
-with open('myfile.txt', 'w+') as f:
-    f.write("sparsh")
-    f.seek(0)
-    data = f.readlines()
-    for line in data:
-        words = line.split()
-        print(words)
+class emp:
+	id=20
+	name="ss"
+	def dis(self):
+		print(self.id.self.name)
+e=emp()
+e.dis()
