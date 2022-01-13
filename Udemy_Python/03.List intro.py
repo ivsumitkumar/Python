@@ -1,6 +1,8 @@
 a = [1, 'apple', 3, 4.0, 'Mango', 5, 'Yeah']
 
-#a.append('dog')
+print('List is: ',a)
+
+a.append('dog')
 print('List after append is: ', a)
 
 a.insert(2, 'Tasty')

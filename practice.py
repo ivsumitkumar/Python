@@ -1,14 +1,7 @@
-# if 10 % 2 == 0 and 34 / 10 == 0:
-#     print("Accepted")
-# elif a // 10 == 0 and a != 0:
-#     print("Nice")
-# else:
-#     print("OK")
-
-class emp:
-	id=20
-	name="ss"
-	def dis(self):
-		print(self.id.self.name)
-e=emp()
-e.dis()
+k=3
+l1=[1,2,3]
+l3=l1[0:k]
+del l1[0:k]
+l3.reverse()
+print(l3)
+print(l3+  l1)
