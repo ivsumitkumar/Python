@@ -57,13 +57,13 @@ print(out)
 print("#RANGES")
 text = "Do you know how to be 2 a script kiddie? It's simple, just copy me."
 out1 = re.findall('[0-9]+',text)
-print(out1)
+print('out1:',out1)
 
 out2 = re.findall('[A-Z]+',text)
-print(out2)
+print('out2:',out2)
 
 out3 = re.findall('[A-Z][a-z]+',text)
-print(out3)
+print('out3:',out3)
 
 out4 = re.findall('[A-Za-z]+',text)
-print(out4)
+print('out4:',out4)
