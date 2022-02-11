@@ -43,8 +43,7 @@ OUTPUT:>>> -1
 class Solution:
    def xorCal(self, k):
        for i in range(1,100):
-           x=i^(i+1)
-           if x==k:
+           if i^i+1 == k:
                return i
        return -1
 #{ 
