@@ -33,18 +33,18 @@
 '''*****************************************************'''
 '''Fibonacci Series'''
 
-n = int(input("Enter the upper limit:"))
-a, b = 0, 1
-print(a)
-print(b)
-c = a + b
-print(c)
-while c < n:
-    a = b
-    b = c
-    c = a + b
-    if c < n:
-        print(c)
+# n = int(input("Enter the upper limit:"))
+# a, b = 0, 1
+# print(a)
+# print(b)
+# c = a + b
+# print(c)
+# while c < n:
+#     a = b
+#     b = c
+#     c = a + b
+#     if c < n:
+#         print(c)
 
 '''*****************************************************'''
 '''To check if the given no. is a Fibonacci no. or not'''
@@ -134,7 +134,7 @@ while c < n:
 '''*****************************************************'''
 # Python 3 program to find factorial of given number
 # def factorial(n):
-# 	return 1 if (n==1 or n==0) else n * factorial(n - 1)
+# 	return 1 if n==0 else n * factorial(n - 1)
 
 # num=int(input("Enter the number: "))
 # print ("Factorial of",num,"is",factorial(num))
