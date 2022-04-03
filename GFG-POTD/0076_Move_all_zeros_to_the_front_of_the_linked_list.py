@@ -72,8 +72,22 @@ class LinkedList:
         self.head = new_node 
     
     def moveZeroes(self):
-        #code here
-        pass
+        temp=self.head
+        prev=None
+        count=0
+        while(temp):
+            if(temp.data==0 and prev!=None ):
+                count+=1
+                prev.next=temp.next
+                temp=temp.next
+            else:
+                prev=temp
+                temp=temp.next
+        while(count):
+            self.push(0)
+            count-=1
+        return self.head
+        
     def display(self):
         temp=self.head
         while(temp is not None):
