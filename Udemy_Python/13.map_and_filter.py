@@ -6,7 +6,7 @@ print(cube(4))
         ###map(function,iterable)###
 list1= [1,3,5,8,45,12]
 result=list(map(cube,list1))
-print(result)
+print(result,list1)
 
 for i in map(cube,list1):
     print(i)

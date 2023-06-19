@@ -1,6 +1,6 @@
 from turtle import *
-speed(0)
-bgcolor("")
+speed(10)
+bgcolor("White")
 color("green")
 pensize(5)
 for i in range(8):
